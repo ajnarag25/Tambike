@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambike</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">    
+</head>
+<body>
+
+
+ <!------------------------------------------------NAVIGATION-------------------------------------------------------->
+
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+    <div class="navbar-brand " href="#"> 
+         <img class="nav-logo" src="assets/logo.png">
+    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+  
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav col-md-auto ml-auto">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="tambike.html">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="#">SHOP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="tambike.html#gallery">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="tambike.html#about">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="tambike.html#contactus">CONTACT US</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+             <input class="form-control mr-sm-2 search-input logo" type="search" placeholder="Search" name="search" id="search" >
+             <button class="btn btn-search my-2 my-sm-0 " type="submit">
+              <span class="iconify iconi" data-icon="oi:magnifying-glass" data-width="30" data-height="30"></span>
+           </button>
+        </form>
+       <ul class="navbar-nav col-md-auto ml-auto">
+           <li><a href=""><span class="iconify iconi" data-icon="bi:cart" data-width="40" data-height="40"></span></a>
+           </li>
+         <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="#">LOGIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold page-scroll" href="#">SIGN IN</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <!-- Shop -->
+	<div id="shop" class="filter">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">Shop</div>
+                    <h2>Here Is Our High Quality Bicycles</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Filter -->
+                    <div class="button-group filters-button-group">
+                        <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
+                        <a class="button" data-filter=".BIANCHI"><span>BIANCHI</span></a>
+                        <a class="button" data-filter=".GIANT"><span>GIANT</span></a>
+                        <a class="button" data-filter=".SPECIALIZED"><span>SPECIALIZED</span></a>
+                        <a class="button" data-filter=".TREK"><span>TREK</span></a>
+                        <a class="button" data-filter=".TRINX"><span>TRINX</span></a>
+                        <a class="button" data-filter=".GROUPSETS"><span>GROUPSETS</span></a>
+                    </div> <!-- end of button group -->
+                    <div class="grid">
+                        <div class="element-item BIANCHI">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Bianchi Oltre XR4</span></div><img src="assets/bianchi_1.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item SPECIALIZED">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>Specialized Tarmac Comp 2016</span></div><img src="assets/bike7.jpg" alt="alternative"></a>
+                        </div>         
+                        <div class="element-item TRINX">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Trinx Drive 1.0</div><img src="assets/trinx_2.jpg" alt="alternative"></a>
+                        </div>         
+                        <div class="element-item GIANT">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Giant Propel Advance Pro</div><img src="assets/giant_3.jpg" alt="alternative"></a>
+                        </div>         
+                        <div class="element-item TREK">
+                            <a class="popup-with-move-anim" href="#project-15"><div class="element-item-overlay"><span>Trek Emonda SLR 9</div><img src="assets/trek_3.jpeg" alt="alternative"></a>
+                        </div>          
+                        <div class="element-item GIANT">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Giant Stance</span></div><img src="assets/bike8.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item TREK">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Trek Fuel Ex</span></div><img src="assets/bike6.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item BIANCHI">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Bianchi Methanol FullSus</span></div><img src="assets/bianchi_3.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item SPECIALIZED">
+                            <a class="popup-with-move-anim" href="#project-13"><div class="element-item-overlay"><span>Specialized Epic Evo XC</span></div><img src="assets/Spec_3.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item TRINX">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Trinx Majest 189 Quest 29</span></div><img src="assets/trinx_3.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item TRINX">
+                            <a class="popup-with-move-anim" href="#project-9"><div class="element-item-overlay"><span>Trinx M136 Elite 27.5</span></div><img src="assets/trinx_1.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item BIANCHI">
+                            <a class="popup-with-move-anim" href="#project-10"><div class="element-item-overlay"><span>Bianchi Methanol CV</span></div><img src="assets/bianchi_2.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item GIANT">
+                            <a class="popup-with-move-anim" href="#project-11"><div class="element-item-overlay"><span>Giant XtC Hardtail</span></div><img src="assets/giant_2.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item SPECIALIZED">
+                            <a class="popup-with-move-anim" href="#project-12"><div class="element-item-overlay"><span>Specialized Epic Hardtail</span></div><img src="assets/Spec_2.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item TREK">
+                            <a class="popup-with-move-anim" href="#project-14"><div class="element-item-overlay"><span>Trek Pro Caliber Elite</span></div><img src="assets/trek_2.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item GROUPSETS">
+                            <a class="popup-with-move-anim" href="#project-16"><div class="element-item-overlay"><span>Shimano Ultegra R8000</span></div><img src="assets/grpst_1.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item GROUPSETS">
+                            <a class="popup-with-move-anim" href="#project-17"><div class="element-item-overlay"><span>Shimano SLX</span></div><img src="assets/grpst_2.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item GROUPSETS">
+                            <a class="popup-with-move-anim" href="#project-18"><div class="element-item-overlay"><span>Sram Red</span></div><img src="assets/grpst_3.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item GROUPSETS">
+                            <a class="popup-with-move-anim" href="#project-19"><div class="element-item-overlay"><span>Shimano Deore XT M8000</span></div><img src="assets/grpst_4.jpg" alt="alternative"></a>
+                        </div>
+                    </div> <!-- end of grid -->
+                    <!-- end of filter -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+		</div> <!-- end of container -->
+    </div> <!-- end of filter -->
+    <!-- end of projects -->
+
+
+    <!-- Project Lightboxes -->
+    <!-- Lightbox -->
+    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/bianchi_1.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Bianchi Oltre XR4</h3>
+                <hr class="line-heading">
+                <h6>Road Bike</h6>
+                <p>Frame: Bianchi Oltre XR4 <br>
+                Groupset: Shimano Ultegra Di2 <br>
+                Frame Size: 55cm <br>
+                Seatpost: Bianchi Oltre Full Carbon Aero <br>
+                Saddle: Fizik Arione R3 <br> 
+                Wheels: Fulcrum Racing 418 Disc <br> 
+                Weight: 7.8kg<br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/bike8.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Giant Stance</h3>
+                <hr class="line-heading">
+                <h6>Full Suspension MTB</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/bike7.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Specialized Tarmac Comp 2016</h3>
+                <hr class="line-heading">
+                <h6>Road Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/bike6.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trek Fuel Ex</h3>
+                <hr class="line-heading">
+                <h6>Full Suspension MTB</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    
+    <!-- Lightbox -->
+    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/trinx_2.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trinx Drive 1.0</h3>
+                <hr class="line-heading">
+                <h6>Road Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/giant_3.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Giant Propel Advance Pro</h3>
+                <hr class="line-heading">
+                <h6>Road Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/bianchi_3.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trek Fuel Ex</h3>
+                <hr class="line-heading">
+                <h6>Full Suspension MTB</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/trinx_3.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trinx Majest 189 Quest 29</h3>
+                <hr class="line-heading">
+                <h6>Mountain Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-9" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/trinx_1.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trinx M136 Elite 27.5</h3>
+                <hr class="line-heading">
+                <h6>Mountain Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-10" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/bianchi_2.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Bianchi Methanol CV</h3>
+                <hr class="line-heading">
+                <h6>Mountain Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-11" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/giant_2.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Giant XtC Hardtail</h3>
+                <hr class="line-heading">
+                <h6>Mountain Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-12" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/Spec_2.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Specialized Epic Hardtail</h3>
+                <hr class="line-heading">
+                <h6>Mountain Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-13" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/Spec_3.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Specialized Epic Evo XC</h3>
+                <hr class="line-heading">
+                <h6>Full Suspension MTB</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-14" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/trek_2.jpeg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trek Pro Caliber Elite</h3>
+                <hr class="line-heading">
+                <h6>Mountain Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-15" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/trek_3.jpeg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Trek Emonda SLR 9</h3>
+                <hr class="line-heading">
+                <h6>Road Bike</h6>
+                <p>Frame:  <br>
+                    Groupset:  <br>
+                    Frame Size:  <br>
+                    Seatpost:  <br>
+                    Saddle:  <br> 
+                    Wheels:  <br> 
+                    Weight: <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-16" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/grpst_1.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Shimano Ultegra R8000</h3>
+                <hr class="line-heading">
+                <h6>Groupset</h6>
+                <p>FC-R8000 crankset (50/34, 172.5mm): 685g  <br>
+                    ST-R8000 levers: 419g/pair  <br>
+                    RD-R8000 SS rear derailleur: 198g  <br>
+                    FD-R8000 front derailleur: 89g  <br>
+                    BR-R8000 brakes: 183g front / 180g rear <br> 
+                    CS-R8000 11-28t cassette: 246g  <br> 
+                    Chain: 264g <br>
+                    Bottom bracket: 76g <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-17" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/grpst_2.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Shimano SLX</h3>
+                <hr class="line-heading">
+                <h6>Groupset</h6>
+                <p>FC-R8000 crankset (50/34, 172.5mm): 685g  <br>
+                    ST-R8000 levers: 419g/pair  <br>
+                    RD-R8000 SS rear derailleur: 198g  <br>
+                    FD-R8000 front derailleur: 89g  <br>
+                    BR-R8000 brakes: 183g front / 180g rear <br> 
+                    CS-R8000 11-28t cassette: 246g  <br> 
+                    Chain: 264g <br>
+                    Bottom bracket: 76g <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-18" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/grpst_3.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Sram Red</h3>
+                <hr class="line-heading">
+                <h6>Groupset</h6>
+                <p>FC-R8000 crankset (50/34, 172.5mm): 685g  <br>
+                    ST-R8000 levers: 419g/pair  <br>
+                    RD-R8000 SS rear derailleur: 198g  <br>
+                    FD-R8000 front derailleur: 89g  <br>
+                    BR-R8000 brakes: 183g front / 180g rear <br> 
+                    CS-R8000 11-28t cassette: 246g  <br> 
+                    Chain: 264g <br>
+                    Bottom bracket: 76g <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-19" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="assets/grpst_4.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Shimano Deore XT M8000</h3>
+                <hr class="line-heading">
+                <h6>Groupset</h6>
+                <p>FC-R8000 crankset (50/34, 172.5mm): 685g  <br>
+                    ST-R8000 levers: 419g/pair  <br>
+                    RD-R8000 SS rear derailleur: 198g  <br>
+                    FD-R8000 front derailleur: 89g  <br>
+                    BR-R8000 brakes: 183g front / 180g rear <br> 
+                    CS-R8000 11-28t cassette: 246g  <br> 
+                    Chain: 264g <br>
+                    Bottom bracket: 76g <br>
+                </p>
+                <a class="btn-solid-reg" href="#your-link">ADD TO CART</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+
+
+    <!-----------------------------------------------------RENT BIKE------------------------------------------------------>
+<div class="jumbotron jumbotron-fluid item" id="rent">
+  <div class="container">   
+  <h1 class="font-weight-bold items">RENT A BIKE</h1> 
+  <p class="items">We provide a quality and affordable price for renting a bike</p> 
+  <div class="mx-auto" style="height: 20px;"></div>
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        <h3 class="font-weight-bold items text-center">Want to rent now?</h3> 
+        <p class="items text-center">Contact us now!</p> 
+        <h6 style="color:white; text-align: center;"><span class="iconify" data-icon="bi:telephone" style="color: white; margin-right: 20px;"data-width="30" data-height="30"></span>09222555111</h6>
+        <h6 style="color:white; text-align: center;"><span class="iconify" data-icon="eva:email-outline" style="color: white; margin-right: 20px;"data-width="30" data-height="30"></span>tambike2021@gmail.com</h6>
+    </div>
+  </div>
+
+  <div class="mx-auto" style="height: 50px;"></div>
+
+  <div class=" justify-content-md-center">
+    <div class="row">
+        <div class="col">
+         <div class="form4 top">
+            <div class="form-bg">
+                <form class="form">
+                    <div class="form-group"> <label class="sr-only">Name</label> <input type="text" class="form-control  mr-sm-2 logo" required="" id="nameNine" placeholder="Name"> </div>
+                    <div class="form-group"> <label class="sr-only">Email</label> <input type="email" class="form-control form-control  mr-sm-2 logo" required="" id="emailNine" placeholder="Email Address"> </div>
+                    <div class="form-group"> <label class="sr-only">Message</label> <textarea class="form-control  mr-sm-2 logo" required="" rows="9" id="messageNine" placeholder="Write message"></textarea> </div>
+                    <button type="submit" class="btn-solid-lg page-scroll">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+      <div class="col">
+         <div class="form4 top">
+            <div class="form-bg">
+                <h2 style="color:white">Map Visualization</h2>
+                <form class="form">
+                    <a class="panel-body " style="cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter"><img  class="imahe" src="assets/map.png" class="img-responsive" style="width:100%" alt="Image" ></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <!----------------------------------------------------CONTACT US MODAL------------------------------------------------------>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalCenterTitle">Map Visualization</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/map.png" class="img-responsive" style="width:100%" alt="Image" >
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-------------------------------------------------------FOOTER------------------------------------------------------>
+     <!-- Footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <div class="col-lg-11">
+                            <div class="text-container">
+                                <h4>Follow Tambike On Social Media</h4>
+                                <span class="fa-stack">
+                                    <a href="#your-link">
+                                      <span class="hexagon"></span>
+                                      <span class="iconify fa-stack-1x" data-icon="bi:facebook" data-width="30" data-height="30"></span>
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="#your-link">
+                                        <span class="hexagon"></span>
+                                        <span class="iconify fa-stack-1x" data-icon="bi:twitter" data-width="30" data-height="30"></span>
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="#your-link">
+                                        <span class="hexagon"></span>
+                                        <span class="iconify fa-stack-1x" data-icon="ri:instagram-fill" data-width="30" data-height="30"></span>
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="#your-link">
+                                        <span class="hexagon"></span>
+                                        <span class="iconify fa-stack-1x" data-icon="akar-icons:pinterest-fill" data-width="30" data-height="30"></span>
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="#your-link">
+                                        <span class="hexagon"></span>
+                                        <span class="iconify fa-stack-1x" data-icon="akar-icons:linkedin-fill" data-width="30" data-height="30"></span>
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="#your-link">
+                                        <span class="hexagon"></span>
+                                        <span class="iconify fa-stack-1x" data-icon="ant-design:behance-circle-filled" data-width="35" data-height="35"></span>
+                                    </a>
+                                </span>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                        
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="logo" href="#your-link">Tambike.com</a>
+                            </li>
+                            <li>
+                                <a class="logo" href="#your-link">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a class="logo" href="#your-link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+  
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Partners</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="logo" href="#your-link">Ninjavan.com</a>
+                            </li>
+                            <li>
+                                <a class="logo" href="#your-link">Trek.com</a>
+                            </li>
+                            <li>
+                                <a class="logo" href="#your-link">Amazon.com</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <a class="logoo" href="index.html"><img src="assets/logo.png" alt="alternative"></a>
+                </div>
+                
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
